@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GYS IMPORTPLAST | Tecnología Verde</title>
+  <link rel="stylesheet" href="web5.css" />
+  <script defer src="web5.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ==============================
+       HEADER / NAVBAR
+       ============================== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">GYS IMPORTPLAST</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#detalle">Detalle</a></li>
+        <li><a href="#contacto">Cotización</a></li>
+        <li><a href="#encuesta">Encuesta</a></li>
+      </ul>
+      <div class="menu-btn" id="menu-btn">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==============================
+       INICIO
+       ============================== -->
+  <section id="inicio" class="hero">
+    <canvas id="bgCanvas"></canvas>
+    <div class="hero-content">
+      <h1>Innovación Sustentable con Tecnología Verde</h1>
+      <p>En <strong>GYS IMPORTPLAST</strong> combinamos diseño, ingeniería y compromiso ambiental para ofrecer envases biodegradables que lideran el cambio.</p>
+      <a href="#catalogo" class="btn">Ver Catálogo</a>
+    </div>
+  </section>
+
+  <!-- ==============================
+       CATÁLOGO
+       ============================== -->
+  <section id="catalogo" class="section fade-in">
+    <h2>Catálogo Inteligente</h2>
+    <div class="catalogo">
+      <div class="card">
+        <img src="imagenes/imagen1.jpg" alt="Envase Inteligente">
+        <h3>Envase Inteligente</h3>
+        <p>Bioplástico con sensor de temperatura integrado.</p>
+        <span>S/ 6.00 unidad</span>
+      </div>
+      <div class="card">
+        <img src="imagenes/imagen2.jpg" alt="Bolsa Ecológica Inteligente">
+        <h3>Bolsa Ecológica</h3>
+        <p>100% compostable con cierre hermético renovable.</p>
+        <span>S/ 2.80 unidad</span>
+      </div>
+      <div class="card">
+        <img src="imagenes/imagen3.jpg" alt="Cubiertos Inteligentes">
+        <h3>Cubiertos Inteligentes</h3>
+        <p>Hechos de maíz y con QR para trazabilidad.</p>
+        <span>S/ 4.20 set</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       DETALLE DEL PRODUCTO
+       ============================== -->
+  <section id="detalle" class="detalle slide-up">
+    <img src="imagenes/imagen4.jpg" alt="Detalle producto" class="detalle-img">
+    <div class="detalle-texto">
+      <h2>Conectamos Tecnología y Naturaleza</h2>
+      <ul>
+        <li>🌎 Materiales biodegradables inteligentes.</li>
+        <li>🔋 Fabricación eficiente con energía solar.</li>
+        <li>📱 Integración con sistemas IoT para monitoreo.</li>
+        <li>♻️ 0% residuos tóxicos durante el ciclo de vida.</li>
+      </ul>
+      <a href="#contacto" class="btn">Solicitar Cotización</a>
+    </div>
+  </section>
+
+  <!-- ==============================
+       COTIZACIÓN / CONTACTO
+       ============================== -->
+  <section id="contacto" class="section fade-in">
+    <h2>Solicita tu Cotización</h2>
+    <form id="formCotizacion" class="form">
+      <label>Nombre:</label>
+      <input type="text" required>
+
+      <label>Correo electrónico:</label>
+      <input type="email" required>
+
+      <label>Producto de interés:</label>
+      <select required>
+        <option value="">Selecciona un producto</option>
+        <option>Envase Inteligente</option>
+        <option>Bolsa Ecológica</option>
+        <option>Cubiertos Inteligentes</option>
+      </select>
+
+      <label>Mensaje adicional:</label>
+      <textarea rows="3"></textarea>
+
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+
+    <a href="https://wa.me/51937283938" class="btn-wsp" target="_blank">💬 WhatsApp</a>
+  </section>
+
+  <!-- ==============================
+       ENCUESTA
+       ============================== -->
+  <section id="encuesta" class="section slide-up">
+    <h2>Tu Opinión Nos Impulsa</h2>
+    <p>Ayúdanos a mejorar nuestros productos ecológicos con tu valiosa opinión.</p>
+    <form id="formEncuesta" class="form">
+      <label>Calificación:</label>
+      <select required>
+        <option>Excelente</option>
+        <option>Buena</option>
+        <option>Regular</option>
+        <option>Mala</option>
+      </select>
+
+      <label>Comentario:</label>
+      <textarea rows="3"></textarea>
+
+      <button type="submit" class="btn">Enviar Opinión</button>
+    </form>
+  </section>
+
+  <!-- ==============================
+       FOOTER
+       ============================== -->
+  <footer>
+    <p>© 2025 GYS IMPORTPLAST — Tecnología Verde para un Futuro Limpio</p>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE WHATSAPP -->
+  <a href="https://wa.me/51937283938" target="_blank" class="wsp-float">💬</a>
+</body>
+</html>
